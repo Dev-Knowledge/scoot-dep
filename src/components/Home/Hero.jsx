@@ -8,12 +8,12 @@ export default function Hero() {
       <div className="relative h-screen flex flex-col justify-center items-center text-white px-8 py-0 text-center">
         <img
           className="absolute xs:block md:hidden w-full h-full -z-10"
-          src={"../src/images/hero_mobile.png"}
+          src={"./src/images/hero_mobile.png"}
           alt=""
         />
         <img
           className="absolute md:block xs:hidden w-full h-full -z-10"
-          src={"../src/images/hero_md.jpg"}
+          src={"./src/images/hero_md.jpg"}
           alt=""
         />
         <h3 className="xl:w-[550px] xl:px-0 xl:mr-[400px] lg:text-left lg:max-w-[700px] lg:mr-[200px] md:px-24 md:text-[56px] md:tracking-[-2.5px] md:leading-[56px] font-monospace font-bold font text-[40px] mb-6 leading-10">
