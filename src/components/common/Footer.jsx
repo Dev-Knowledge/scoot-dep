@@ -56,17 +56,17 @@ const Footer = () => {
         </h3>
         <ul className="mb-[85px] md:mr-[153px] flex md:flex-row md:justify-center md:m-0 xs:flex-col text-center gap-4 text-[#939CAA] font-bold text-[15px] leading-[25px]">
           <li key={"key1"}>
-            <Link to="/scoot-dep/About" onClick={handleScrollToTop}>
+            <Link to="About" onClick={handleScrollToTop}>
               About
             </Link>
           </li>
           <li key={"key2"}>
-            <Link to="/scoot-dep/Location" onClick={handleScrollToTop}>
+            <Link to="Location" onClick={handleScrollToTop}>
               Location
             </Link>
           </li>
           <li key={"key3"}>
-            <Link to="/scoot-dep/Careers" onClick={handleScrollToTop}>
+            <Link to="Careers" onClick={handleScrollToTop}>
               Careers
             </Link>
           </li>

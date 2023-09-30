@@ -27,13 +27,13 @@ export default function Header() {
           <div className="hidden md:flex justify-between items-center font-bold gap-24">
             <ul className="font-monospace text-[15px] leading-[25px] text-[#939CAA] 2xl:mr-[400px] flex justify-between gap-8">
               <li>
-                <Link to={"/scoot-dep/About"}>About</Link>
+                <Link to={"/About"}>About</Link>
               </li>
               <li>
-                <Link to={"/scoot-dep/Careers"}>Careers</Link>
+                <Link to={"/Careers"}>Careers</Link>
               </li>
               <li>
-                <Link to={"/scoot-dep/Location"}>Location</Link>
+                <Link to={"/Location"}>Location</Link>
               </li>
             </ul>
             <Main_button title={"Get Scootin"} />
@@ -51,17 +51,17 @@ export default function Header() {
           >
             <ul className="flex flex-col gap-6 text-[#E5ECF4] font-bold font-monospace py-28 w-full">
               <li key={"key1"}>
-                <Link to="/scoot-dep/About">About</Link>
+                <Link to="/About">About</Link>
               </li>
               <li key={"key2"}>
-                <Link to="/scoot-dep/Location">Location</Link>
+                <Link to="/Location">Location</Link>
               </li>
               <li key={"key3"}>
-                <Link to="/scoot-dep/Careers">Careers</Link>
+                <Link to="/Careers">Careers</Link>
               </li>
             </ul>
             <button className="bg-[#FCB72B] font-bold text-[15px] px-8 py-3 rounded-sm text-white">
-              <Link to="/scoot-dep/Careers">Get Scootin</Link>
+              <Link to="/Careers">Get Scootin</Link>
             </button>
           </div>
         </div>
