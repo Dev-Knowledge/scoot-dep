@@ -50,7 +50,7 @@ const Footer = () => {
         style={{ backgroundImage: "url(../src/images/bottom_footer.png)" }}
       >
         <h3 className="md:m-0 md:mr-[59px] mb-[41.44px] text-center font-monospace text-[32px] leading-8 tracking-[-1.43px] font-bold text-white">
-          <Link to={"/scoot-dep"} onClick={handleScrollToTop}>
+          <Link to={"/"} onClick={handleScrollToTop}>
             Scoot
           </Link>
         </h3>
