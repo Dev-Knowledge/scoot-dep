@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative z-20">
+    <header className="block relative z-20">
       <div className="flex justify-between items-center h-16 md:h-24 px-2 bg-white">
         <div className="md:hidden" onClick={toggle}>
           {visible ? (
