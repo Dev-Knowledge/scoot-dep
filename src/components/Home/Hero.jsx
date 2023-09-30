@@ -8,12 +8,12 @@ export default function Hero() {
       <div className="relative h-screen flex flex-col justify-center items-center text-white px-8 py-0 text-center">
         <img
           className="absolute xs:block md:hidden w-full h-full -z-10"
-          src={process.env.PUBLIC_URL + "/hero_mobile.png"}
+          src={process.env.PUBLIC_URL + "/scoot-dep/hero_mobile.png"}
           alt=""
         />
         <img
           className="absolute md:block xs:hidden w-full h-full -z-10"
-          src={process.env.PUBLIC_URL + "/hero_md.JPG"}
+          src={process.env.PUBLIC_URL + "/scoot-dep/hero_md.JPG"}
           alt=""
         />
         <h3 className="xl:w-[550px] xl:px-0 xl:mr-[400px] lg:text-left lg:max-w-[700px] lg:mr-[200px] md:px-24 md:text-[56px] md:tracking-[-2.5px] md:leading-[56px] font-monospace font-bold font text-[40px] mb-6 leading-10">
@@ -31,12 +31,12 @@ export default function Hero() {
         </div>
         <img
           className="xs:hidden lg:block w-[200px] absolute top-[300px] left-0"
-          src={process.env.PUBLIC_URL + "/src/images/line.svg"}
+          src={process.env.PUBLIC_URL + "/line.svg"}
           alt=""
         />
         <img
           className="lg:hidden xl:block absolute md:left-0 xs:top-[480px] xs:left-[-150px] md:top-[470px] w-[347px] xl:top-[300px] xl:left-[820px]"
-          src={process.env.PUBLIC_URL + "/src/images/hero_arrow.png"}
+          src={process.env.PUBLIC_URL + "/hero_arrow.png"}
           alt=""
         />
         <div
