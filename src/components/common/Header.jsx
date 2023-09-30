@@ -22,7 +22,7 @@ export default function Header() {
         </div>
         <nav className="flex justify-between items-center lg:mx-[169.18px] gap-[58.18px] mx-[40px] md:w-full">
           <h3 className="xs:w-full  text-center md:w-fit font-bold text-3xl text-[#495567] font-monospace">
-            <Link to="/scoot-dep">Scoot</Link>
+            <Link to="/scoot-dep/">Scoot</Link>
           </h3>
           <div className="hidden md:flex justify-between items-center font-bold gap-24">
             <ul className="font-monospace text-[15px] leading-[25px] text-[#939CAA] 2xl:mr-[400px] flex justify-between gap-8">
