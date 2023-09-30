@@ -22,18 +22,18 @@ export default function Header() {
         </div>
         <nav className="flex justify-between items-center lg:mx-[169.18px] gap-[58.18px] mx-[40px] md:w-full">
           <h3 className="xs:w-full  text-center md:w-fit font-bold text-3xl text-[#495567] font-monospace">
-            <Link to="/">Scoot</Link>
+            <Link to="/scoot-dep">Scoot</Link>
           </h3>
           <div className="hidden md:flex justify-between items-center font-bold gap-24">
             <ul className="font-monospace text-[15px] leading-[25px] text-[#939CAA] 2xl:mr-[400px] flex justify-between gap-8">
               <li>
-                <Link to={"/About"}>About</Link>
+                <Link to={"/scoot-dep/About"}>About</Link>
               </li>
               <li>
-                <Link to={"/Careers"}>Careers</Link>
+                <Link to={"/scoot-dep/Careers"}>Careers</Link>
               </li>
               <li>
-                <Link to={"/Location"}>Location</Link>
+                <Link to={"/scoot-dep/Location"}>Location</Link>
               </li>
             </ul>
             <Main_button title={"Get Scootin"} />
@@ -51,17 +51,17 @@ export default function Header() {
           >
             <ul className="flex flex-col gap-6 text-[#E5ECF4] font-bold font-monospace py-28 w-full">
               <li key={"key1"}>
-                <Link to="/About">About</Link>
+                <Link to="/scoot-dep/About">About</Link>
               </li>
               <li key={"key2"}>
-                <Link to="/Location">Location</Link>
+                <Link to="/scoot-dep/Location">Location</Link>
               </li>
               <li key={"key3"}>
-                <Link to="/Careers">Careers</Link>
+                <Link to="/scoot-dep/Careers">Careers</Link>
               </li>
             </ul>
             <button className="bg-[#FCB72B] font-bold text-[15px] px-8 py-3 rounded-sm text-white">
-              <Link to="/Careers">Get Scootin</Link>
+              <Link to="/scoot-dep/Careers">Get Scootin</Link>
             </button>
           </div>
         </div>
