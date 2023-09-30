@@ -13,7 +13,7 @@ export default function Hero() {
         />
         <img
           className="absolute md:block xs:hidden w-full h-full -z-10"
-          src={process.env.PUBLIC_URL + "/hero_md.JPG"}
+          src={process.env.PUBLIC_URL + "/scoot-dep/hero_md.JPG"}
           alt=""
         />
         <h3 className="xl:w-[550px] xl:px-0 xl:mr-[400px] lg:text-left lg:max-w-[700px] lg:mr-[200px] md:px-24 md:text-[56px] md:tracking-[-2.5px] md:leading-[56px] font-monospace font-bold font text-[40px] mb-6 leading-10">
