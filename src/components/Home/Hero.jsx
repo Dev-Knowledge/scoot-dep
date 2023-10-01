@@ -14,7 +14,7 @@ export default function Hero() {
         <img
           className="absolute md:block xs:hidden w-full h-full -z-10"
           src={
-            "https://Dev-Knowledge.github.io/scoot-dep/images/hero_md.jpg?raw=true"
+            "https://github.com/Dev-Knowledge/scoot-dep/blob/main/src/images/hero_md.jpg"
           }
           alt=""
         />
